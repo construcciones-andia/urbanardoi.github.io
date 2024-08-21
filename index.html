@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bienvenido a tu futuro hogar - Parque Media Luna by Andia</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="columns is-desktop mt-2">
+      <div class="column">
+        <img src="images/logo.png" alt="Parque Media Luna by Andia" />
+      </div>
+    </div>
+    <header>
+      <div class="columns is-mobile is-centered is-vcentered">
+        <div class="column parent">
+          <div class="columns is-mobile is-vcentered">
+            <div class="column is-12">
+              <h1>BIENVENIDO<br class="is-hidden-desktop"> A TU NUEVO HOGAR</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-mobile is-centered is-vcentered">
+        <div class="column is-10 has-background-white p-6 box">
+          <div class="columns is-desktop">
+            <div class="column p-0">
+              <h2 class="title">VÍDEOS EXPLICATIVOS</h2>
+            </div>
+          </div>
+          <div class="columns is-desktop body">
+            <div class="column feature pl-0">
+              <div class="video bck" onclick="openModal('hKqSLQ1SUSY')"
+                style="background-image: url(http://i3.ytimg.com/vi/hKqSLQ1SUSY/hqdefault.jpg);"></div>
+              <div class="video-description">
+                <h2>Conoce tu vivienda</h2>
+                <p>video introductorio sobre las instalaciones que dispone su nuevo hogar.</p>
+              </div>
+            </div>
+            <div class="column feature">
+              <div class="video bck" onclick="openModal('A8Al8rZws-4')"
+                style="background-image: url(http://i3.ytimg.com/vi/A8Al8rZws-4/hqdefault.jpg);">
+              </div>
+              <div class="video-description">
+                <h2>Calefacción</h2>
+                <p>Funcionamiento y sistemas de agua caliente, calefacción y ACS.</p>
+              </div>
+            </div>
+            <div class="column feature">
+              <div class="video bck" onclick="openModal('H3HRUbGCH0I')"
+                style="background-image: url(http://i3.ytimg.com/vi/H3HRUbGCH0I/hqdefault.jpg);"></div>
+              <div class="video-description">
+                <h2>Llaves de corte y ventilación</h2>
+                <p>Localización de llaves de corte y sistema de ventilación de su vivienda.</p>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-centered is-desktop body">
+            <div class="column feature pr-0">
+              <div class="video bck" onclick="openModal('-y8CLNdivgU')"
+                style="background-image: url(http://i3.ytimg.com/vi/-y8CLNdivgU/hqdefault.jpg);"></div>
+              <div class="video-description">
+                <h2>Carpintería</h2>
+                <p>Breve explicación sobre los elementos de carpintería su uso y correcto mantenimiento</p>
+              </div>
+            </div>
+            <div class="column feature pr-0">
+              <div class="video bck" onclick="openModal('sAi1JJe_4xw')"
+                style="background-image: url(http://i3.ytimg.com/vi/sAi1JJe_4xw/hqdefault.jpg);"></div>
+              <div class="video-description">
+                <h2>Alta de Suministros</h2>
+                <p>Vídeo explicativo sobre cómo dar de alta correctamente los suministros básicos del edificio.</p>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-mobile is-centered is-vcentered has-background-orange has-text-white mt-6">
+            <div class="column is-12">
+              <h2 class="title mb-0 has-text-white">DOCUMENTOS DESCARGABLES</h2>
+              <div class="columns is-desktop body mt-0 mb-0">
+                <div class="column m-0 ml-4 p-2">
+                  &#9702; <a class="has-text-white" href="pdf/caldera.pdf" target="_blank">Manual
+                    Caldera <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i></a><br>
+                  &#9702; <a class="has-text-white" href="pdf/manual-ventilacion-mecanica-mantenimiento.pdf"
+                    target="_blank">Manual Ventilación mecánica mantenimiento <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i></a><br>
+                  &#9702; <a class="has-text-white" href="pdf/manual-ventilacion-mecanica.pdf"
+                    target="_blank">Manual Ventilación mecánica <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i></a>
+                </div>
+                <div class="column m-0 p-2 ml-4">
+                  &#9702; <a class="has-text-white" href="pdf/termostato.pdf"
+                  target="_blank">Manual Termostato <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i></a><br>
+                  &#9702; <a class="has-text-white" href="pdf/video-portero.pdf"
+                    target="_blank">Manual
+                    Videoportero <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+  </header>
+
+  <footer class="has-text-centered">
+    <div class="columns is-mobile is-centered is-vcentered">
+      <div class="column is-4 has-text-left has-border-bottom">
+        <img src="images/logo-andia-negativo.png" alt="Construcciones Andia" />
+      </div>
+      <div class="column is-4 has-text-right has-border-bottom">
+        <span class="is-inline-block">Avda. Baja Navarra 42</span><br>
+        Bajo. 31004 Pamplona<br>
+        Tel. 948 229 193
+      </div>
+    </div>
+  </footer>
+  </div>
+  <div class="modal" id="modal">
+    <div class="modal-background" onclick="closeModal()"></div>
+    <div class="modal-content">
+      <p class="image">
+        <iframe id="video" width="560" height="315" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </p>
+    </div>
+    <button class="modal-close is-large" aria-label="close" onclick="closeModal()"></button>
+  </div>
+</body>
+<script src="js/main.js"></script>
+
+</html>
